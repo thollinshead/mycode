@@ -22,8 +22,6 @@ def main():
     ## run 
     commandpush(work2do) # call function to push commands to devices
 
-# call our main function
-main()
 
 # function to accept IPs, connect and reboot
 def devicereboot(iplist):
@@ -31,3 +29,4 @@ def devicereboot(iplist):
         print('Connecting to..', x)
         print('REBOOTING NOW!')
 
+main()
